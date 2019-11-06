@@ -1,12 +1,12 @@
 #include <stdio.h>
 
-int main()
+int main(void)
 {
 	float kg, pound;
-	printf("¹«°ÔÀÇ ´ÜÀ§(kg)À» ÀÔ·ÂÇÏ¼¼¿ä: ");
+	printf("ë¬´ê²Œì˜ ë‹¨ìœ„(kg)ì„ ì…ë ¥í•˜ì„¸ìš”: ");
 	scanf_s("%f", &kg);
 	pound = 0.453592 / kg;
-	printf("%.3fkgÀº %.3fpound ÀÔ´Ï´Ù.\n", kg, pound);
+	printf("%.3fkgì€ %.3fpound ì…ë‹ˆë‹¤.\n", kg, pound);
 
 	return 0;
 }
